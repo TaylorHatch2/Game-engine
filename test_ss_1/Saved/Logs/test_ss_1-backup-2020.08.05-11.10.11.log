@@ -1,0 +1,666 @@
+﻿Log file open, 08/05/20 10:36:53
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: test_ss_1
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.208346
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -7:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.103s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7660U CPU @ 2.50GHz, GPU: Intel(R) Iris(R) Plus Graphics 640
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2020.08.05-16.36.54:264][  0]LogInit: Selected Device Profile: [Windows]
+[2020.08.05-16.36.54:264][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.08.05-16.36.54:277][  0]LogHAL: Display: Platform has ~ 16 GB [17097437184 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.08.05-16.36.54:277][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2020.08.05-16.36.54:277][  0]LogInit: Going up to parent DeviceProfile []
+[2020.08.05-16.36.54:277][  0]LogInit: Computer: TAYLORSSURFACEP
+[2020.08.05-16.36.54:277][  0]LogInit: User: plisk
+[2020.08.05-16.36.54:277][  0]LogInit: CPU Page size=4096, Cores=2
+[2020.08.05-16.36.54:277][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.08.05-16.36.54:278][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.08.05-16.36.54:278][  0]LogMemory: Platform Memory Stats for Windows
+[2020.08.05-16.36.54:278][  0]LogMemory: Process Physical Memory: 100.74 MB used, 100.75 MB peak
+[2020.08.05-16.36.54:278][  0]LogMemory: Process Virtual Memory: 84.15 MB used, 84.15 MB peak
+[2020.08.05-16.36.54:278][  0]LogMemory: Physical Memory: 4903.99 MB used,  11401.40 MB free, 16305.39 MB total
+[2020.08.05-16.36.54:278][  0]LogMemory: Virtual Memory: 4604.64 MB used,  11401.40 MB free, 134217728.00 MB total
+[2020.08.05-16.36.54:295][  0]LogInit: Using OS detected language (en-US).
+[2020.08.05-16.36.54:295][  0]LogInit: Using OS detected locale (en-US).
+[2020.08.05-16.36.54:296][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.08.05-16.36.54:621][  0]LogStreaming: Display: Took  0.327s to InitEngineTextLocalization.
+[2020.08.05-16.36.54:622][  0]LogInit: Setting process to per monitor DPI aware
+[2020.08.05-16.36.54:693][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.08.05-16.36.54:693][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.08.05-16.36.54:961][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.08.05-16.36.54:961][  0]LogD3D11RHI: D3D11 adapters:
+[2020.08.05-16.36.54:993][  0]LogD3D11RHI:    0. 'Intel(R) Iris(R) Plus Graphics 640' (Feature Level 11_0)
+[2020.08.05-16.36.54:993][  0]LogD3D11RHI:       128/0/8152 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x8086
+[2020.08.05-16.36.54:996][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.08.05-16.36.54:996][  0]LogD3D11RHI:       0/0/8152 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.08.05-16.36.54:996][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.08.05-16.36.55:003][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.08.05-16.36.55:004][  0]LogD3D11RHI:     GPU DeviceId: 0x5926 (for the marketing name, search the web for "GPU Device Id")
+[2020.08.05-16.36.55:004][  0]LogWindows: EnumDisplayDevices:
+[2020.08.05-16.36.55:004][  0]LogWindows:    0. 'Intel(R) Iris(R) Plus Graphics 640' (P:1 D:1)
+[2020.08.05-16.36.55:004][  0]LogWindows:    1. 'Intel(R) Iris(R) Plus Graphics 640' (P:0 D:1)
+[2020.08.05-16.36.55:005][  0]LogWindows:    2. 'Intel(R) Iris(R) Plus Graphics 640' (P:0 D:1)
+[2020.08.05-16.36.55:005][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2020.08.05-16.36.55:005][  0]LogD3D11RHI:     Adapter Name: Intel(R) Iris(R) Plus Graphics 640
+[2020.08.05-16.36.55:005][  0]LogD3D11RHI:   Driver Version: 26.20.100.7639 (internal:26.20.100.7639, unified:26.20.100.7639)
+[2020.08.05-16.36.55:005][  0]LogD3D11RHI:      Driver Date: 12-13-2019
+[2020.08.05-16.36.55:005][  0]LogRHI: Texture pool is 1523 MB (70% of 2176 MB)
+[2020.08.05-16.36.55:033][  0]LogD3D11RHI: Async texture creation enabled
+[2020.08.05-16.36.55:038][  0]LogD3D11RHI: GPU Timing Frequency: 12.000048 (Debug: 2 0)
+[2020.08.05-16.36.55:039][  0]LogShaderCompilers: Guid format shader working directory is -31 characters bigger than the processId version (../../../../../../Users/plisk/Documents/Unreal Projects/Game-engine/test_ss_1/Intermediate/Shaders/WorkingDirectory/6444/).
+[2020.08.05-16.36.55:039][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/plisk/AppData/Local/Temp/UnrealShaderWorkingDir/51FF113346E995E197CBE1BEF9D0EE84/'.
+[2020.08.05-16.36.55:343][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2020.08.05-16.36.55:355][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2020.08.05-16.36.55:368][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2020.08.05-16.36.55:382][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2020.08.05-16.36.55:397][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2020.08.05-16.36.55:412][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2020.08.05-16.36.55:426][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2020.08.05-16.36.55:440][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2020.08.05-16.36.55:446][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2020.08.05-16.36.55:527][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.08.05-16.36.55:527][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.08.05-16.36.55:527][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.08.05-16.36.55:527][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.08.05-16.36.55:527][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.08.05-16.36.55:527][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.08.05-16.36.55:527][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.08.05-16.36.55:527][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.08.05-16.36.55:527][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.08.05-16.36.55:527][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.08.05-16.36.55:527][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.08.05-16.36.55:527][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.08.05-16.36.55:527][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.08.05-16.36.55:527][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.08.05-16.36.55:527][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.08.05-16.36.55:527][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.08.05-16.36.55:527][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.08.05-16.36.55:527][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.08.05-16.36.55:528][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2020.08.05-16.36.55:589][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2020.08.05-16.36.55:589][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2020.08.05-16.36.55:613][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2020.08.05-16.36.55:613][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2020.08.05-16.36.55:626][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2020.08.05-16.36.55:639][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2020.08.05-16.36.55:654][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2020.08.05-16.36.55:670][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2020.08.05-16.36.55:681][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2020.08.05-16.36.55:681][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.08.05-16.36.55:745][  0]LogXGEController: Cleaning working directory: C:/Users/plisk/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.08.05-16.36.55:745][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.08.05-16.36.55:745][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.08.05-16.36.55:745][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.08.05-16.36.56:530][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.08.05-16.36.56:580][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/plisk/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2020.08.05-16.36.56:581][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/plisk/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2020.08.05-16.36.56:581][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/plisk/Documents/Unreal Projects/Game-engine/test_ss_1/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.08.05-16.36.56:581][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.08.05-16.36.56:581][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/plisk/Documents/Unreal Projects/Game-engine/test_ss_1/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.08.05-16.36.56:581][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.08.05-16.36.56:594][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.08.05-16.36.56:606][  0]LogDerivedDataCache: Using Local data cache path C:/Users/plisk/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.08.05-16.36.56:606][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.08.05-16.36.56:606][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.08.05-16.36.56:624][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.08.05-16.36.56:625][  0]LogSlate: Using FreeType 2.6.0
+[2020.08.05-16.36.56:626][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.08.05-16.36.56:694][  0]LogAssetRegistry: FAssetRegistry took 0.0262 seconds to start up
+[2020.08.05-16.36.57:000][  0]LogInit: Selected Device Profile: [Windows]
+[2020.08.05-16.36.57:124][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2020.08.05-16.36.57:127][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2020.08.05-16.36.57:127][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.08.05-16.36.57:127][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.08.05-16.36.57:127][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2020.08.05-16.36.57:152][  0]LogNetVersion: test_ss_1 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 559208224)
+[2020.08.05-16.36.57:674][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.122695 seconds
+[2020.08.05-16.36.57:680][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2020.08.05-16.36.57:680][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2020.08.05-16.36.57:680][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.08.05-16.36.58:514][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.08.05-16.36.58:527][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.08.05-16.36.58:669][  0]SourceControl: Source control is disabled
+[2020.08.05-16.36.58:669][  0]SourceControl: Source control is disabled
+[2020.08.05-16.36.58:670][  0]SourceControl: Source control is disabled
+[2020.08.05-16.36.58:671][  0]SourceControl: Source control is disabled
+[2020.08.05-16.36.58:844][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.08.05-16.36.58:951][  0]LogOcInput: OculusInput pre-init called
+[2020.08.05-16.36.59:011][  0]LogEngine: Initializing Engine...
+[2020.08.05-16.36.59:012][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.08.05-16.36.59:013][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2020.08.05-16.36.59:013][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.08.05-16.36.59:013][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2020.08.05-16.36.59:013][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.08.05-16.36.59:216][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.08.05-16.36.59:230][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.08.05-16.36.59:260][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.08.05-16.37.00:339][  0]LogInit: FAudioDevice initialized.
+[2020.08.05-16.37.00:339][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.08.05-16.37.00:401][  0]LogDerivedDataCache: Saved boot cache 0.06s 71MB C:/Users/plisk/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2020.08.05-16.37.00:409][  0]LogInit: Texture streaming: Enabled
+[2020.08.05-16.37.00:425][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.08.05-16.37.00:426][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={5600E931-40C0-A268-2846-FF8EF3AFF728}
+[2020.08.05-16.37.00:438][  0]LogInit: Transaction tracking system initialized
+[2020.08.05-16.37.00:460][  0]BlueprintLog: New page: Editor Load
+[2020.08.05-16.37.00:533][  0]LocalizationService: Localization service is disabled
+[2020.08.05-16.37.00:805][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.08.05-16.37.00:805][  0]LogCook: Display: Mobile HDR setting 1
+[2020.08.05-16.37.00:805][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2020.08.05-16.37.00:805][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2020.08.05-16.37.00:805][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.08.05-16.37.00:805][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2020.08.05-16.37.00:805][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.08.05-16.37.00:924][  0]LogFileCache: Scanning file cache for directory 'C:/Users/plisk/Documents/Unreal Projects/Game-engine/test_ss_1/Content/' took 0.02s
+[2020.08.05-16.37.00:924][  0]SourceControl: Source control is disabled
+[2020.08.05-16.37.00:924][  0]Cmd: MAP LOAD FILE="../../../../../../Users/plisk/Documents/Unreal Projects/Game-engine/test_ss_1/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.08.05-16.37.00:924][  0]LightingResults: New page: Lighting Build
+[2020.08.05-16.37.00:927][  0]MapCheck: New page: Map Check
+[2020.08.05-16.37.00:927][  0]LightingResults: New page: Lighting Build
+[2020.08.05-16.37.01:469][  0]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2020.08.05-16.37.01:478][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.08.05-16.37.01:496][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.08.05-16.37.01:602][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 105.738ms to complete.
+[2020.08.05-16.37.01:602][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 0.678
+[2020.08.05-16.37.01:768][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.05-16.37.01:775][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.05-16.37.01:783][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.05-16.37.01:790][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.05-16.37.01:796][  0]LogCollectionManager: Loaded 0 collections in 0.001601 seconds
+[2020.08.05-16.37.01:848][  0]LogFileCache: Scanning file cache for directory 'C:/Users/plisk/Documents/Unreal Projects/Game-engine/test_ss_1/Saved/Collections/' took 0.01s
+[2020.08.05-16.37.01:848][  0]LogFileCache: Scanning file cache for directory 'C:/Users/plisk/Documents/Unreal Projects/Game-engine/test_ss_1/Content/Developers/plisk/Collections/' took 0.01s
+[2020.08.05-16.37.01:849][  0]LogFileCache: Scanning file cache for directory 'C:/Users/plisk/Documents/Unreal Projects/Game-engine/test_ss_1/Content/Collections/' took 0.01s
+[2020.08.05-16.37.01:849][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2020.08.05-16.37.01:857][  0]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 2572 classes and 603 folders.
+[2020.08.05-16.37.01:864][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2020.08.05-16.37.01:901][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2020.08.05-16.37.01:907][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2020.08.05-16.37.01:921][  0]LogSlate: Took 0.000265 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.08.05-16.37.01:924][  0]LogSlate: Took 0.000273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.08.05-16.37.01:933][  0]LogSlate: Took 0.000200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.08.05-16.37.02:015][  0]LogRenderer: Reallocating scene render targets to support 1372x676 Format 10 NumSamples 1 (Frame:1).
+[2020.08.05-16.37.02:184][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2020.08.05-16.37.02:185][  0]LogLoad: (Engine Initialization) Total time: 9.30 seconds
+[2020.08.05-16.37.02:185][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.08.05-16.37.02:223][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.08.05-16.37.02:423][  1]LogAssetRegistry: Asset discovery search completed in 5.7517 seconds
+[2020.08.05-16.37.02:426][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2020.08.05-16.37.02:427][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000912 seconds (updated 0 objects)
+[2020.08.05-16.37.03:281][ 25]LogSlate: Took 0.000253 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.08.05-16.37.05:741][141]LogEditorViewport: Clicking on Actor (LMB): BaseFloor_C (BaseFloor)
+[2020.08.05-16.37.09:285][279]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.08.05-16.37.11:370][401]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.08.05-16.37.21:870][798]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2020.08.05-16.37.27:526][981]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (RightEdge)
+[2020.08.05-16.37.51:626][776]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.08.05-16.37.56:986][973]LogAIModule: Creating AISystem for world Level1
+[2020.08.05-16.37.57:038][973]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/Level1.Level1
+[2020.08.05-16.37.57:085][973]Cmd: MAP LOAD FILE="../../../../../../Users/plisk/Documents/Unreal Projects/Game-engine/test_ss_1/Content/Levels/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.08.05-16.37.57:085][973]LightingResults: New page: Lighting Build
+[2020.08.05-16.37.57:087][973]LoadErrors: New page: Loading map: Level1.umap
+[2020.08.05-16.37.57:089][973]MapCheck: New page: Map Check
+[2020.08.05-16.37.57:089][973]LightingResults: New page: Lighting Build
+[2020.08.05-16.37.57:217][973]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.08.05-16.37.57:288][973]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.08.05-16.37.57:439][973]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 150.06ms to complete.
+[2020.08.05-16.37.57:439][973]LogFileHelpers: Loading map 'Level1' took 0.356
+[2020.08.05-16.38.11:243][269]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (BG_Sprite4)
+[2020.08.05-16.38.20:164][467]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.08.05-16.38.23:870][556]LogEditorViewport: Clicking Background
+[2020.08.05-16.38.28:749][666]LogEditorViewport: Clicking on Actor (LMB): BaseFloor_4_C (BaseFloor_4)
+[2020.08.05-16.38.31:136][715]LogEditorViewport: Clicking on Actor (LMB): BaseFloor_3_C (BaseFloor_3)
+[2020.08.05-16.38.33:947][776]LogEditorViewport: Clicking on Actor (CTRL LMB): BaseFloor_4_C (BaseFloor_4)
+[2020.08.05-16.38.35:872][814]Cmd: DELETE
+[2020.08.05-16.38.35:872][814]Cmd: ACTOR DELETE
+[2020.08.05-16.38.35:887][814]LogEditorActor: Deleted Actor: BaseFloor_3_C
+[2020.08.05-16.38.35:888][814]LogEditorActor: Deleted Actor: BaseFloor_4_C
+[2020.08.05-16.38.35:943][814]LogEditorActor: Deleted 2 Actors (0.070 secs)
+[2020.08.05-16.38.37:292][854]LogEditorViewport: Clicking on Actor (LMB): BaseFloor_5_C (BaseFloor_5)
+[2020.08.05-16.38.46:593][ 76]LogEditorViewport: Clicking on Actor (LMB): BaseFloor_5_C (BaseFloor_25)
+[2020.08.05-16.38.54:266][240]LogEditorViewport: Clicking Background
+[2020.08.05-16.38.57:899][332]LogEditorViewport: Clicking on Actor (LMB): BaseFloor_5_C (BaseFloor_26)
+[2020.08.05-16.39.03:313][446]LogEditorViewport: Clicking Background
+[2020.08.05-16.39.07:820][566]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.08.05-16.39.08:104][566]LogSavePackage: Moving '../../../../../../Users/plisk/Documents/Unreal Projects/Game-engine/test_ss_1/Saved/Level1F4E050754DDE855E052B10A12407145F.tmp' to '../../../../../../Users/plisk/Documents/Unreal Projects/Game-engine/test_ss_1/Content/Levels/Level1.umap'
+[2020.08.05-16.39.17:587][806]LogEditorViewport: Clicking on Actor (LMB): BaseFloor_5_C (BaseFloor_26)
+[2020.08.05-16.39.30:557][ 91]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.08.05-16.39.40:898][315]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.08.05-16.39.51:474][551]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.08.05-16.40.30:569][497]LogEditorViewport: Clicking Background
+[2020.08.05-16.40.32:389][534]LogEditorViewport: Clicking on Actor (LMB): BaseFloor_5_C (BaseFloor_28)
+[2020.08.05-16.40.36:299][626]LogEditorViewport: Clicking on Actor (LMB): BaseFloor_5_C (BaseFloor_27)
+[2020.08.05-16.40.55:954][ 81]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.08.05-16.41.04:318][256]LogEditorViewport: Clicking Background
+[2020.08.05-16.41.05:112][257]Cmd: TRANSACTION UNDO
+[2020.08.05-16.41.05:112][257]LogEditorTransaction: Undo Clicking Background
+[2020.08.05-16.41.07:689][348]Cmd: TRANSACTION UNDO
+[2020.08.05-16.41.07:689][348]LogEditorTransaction: Undo Set Rotation
+[2020.08.05-16.41.10:212][408]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.08.05-16.41.49:761][294]LogEditorViewport: Clicking on Actor (LMB): BaseFloor_5_C (BaseFloor_28)
+[2020.08.05-16.41.55:167][409]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.08.05-16.42.03:887][626]LogEditorViewport: Clicking on Actor (LMB): BaseFloor_5_C (BaseFloor_29)
+[2020.08.05-16.42.09:101][728]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.08.05-16.42.23:183][ 49]LogEditorViewport: Clicking Background
+[2020.08.05-16.42.25:902][ 94]LogEditorViewport: Clicking on Actor (LMB): BaseFloor_5_C (BaseFloor_29)
+[2020.08.05-16.42.31:839][215]LogEditorViewport: Clicking Background
+[2020.08.05-16.42.36:275][332]LogEditorViewport: Clicking on Actor (LMB): BaseFloor_5_C (BaseFloor_29)
+[2020.08.05-16.42.41:119][437]LogEditorViewport: Clicking Background
+[2020.08.05-16.42.47:810][584]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.08.05-16.42.47:810][584]LogTemp: Repeating last play command: Simulate
+[2020.08.05-16.42.47:841][584]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.08.05-16.42.47:856][584]PIE: New page: SIE session: Level1 (Aug 5, 2020, 4:42:47 AM)
+[2020.08.05-16.42.47:856][584]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2020.08.05-16.42.47:876][584]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019345s)
+[2020.08.05-16.42.47:877][584]LogAIModule: Creating AISystem for world Level1
+[2020.08.05-16.42.47:878][584]LogPlayLevel: PIE: World Init took: (0.002171s)
+[2020.08.05-16.42.47:878][584]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.021941s)
+[2020.08.05-16.42.47:952][584]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.08.05-16.42.47:978][584]LogInit: FAudioDevice initialized.
+[2020.08.05-16.42.48:025][584]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2020.08.05-16.42.48:035][584]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2020.08.05-10.42.48
+[2020.08.05-16.42.48:035][584]LogWorld: Bringing up level for play took: 0.009011
+[2020.08.05-16.42.48:056][584]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0015 seconds. Added 10 classes and 0 folders.
+[2020.08.05-16.42.48:056][584]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 1.08
+[2020.08.05-16.44.00:011][339]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.05-16.44.00:066][339]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.08.05-16.44.00:103][339]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.05-16.44.00:323][340]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2020.08.05-16.44.03:619][416]LogEditorViewport: Clicking on Actor (LMB): BaseFloor_5_C (BaseFloor_29)
+[2020.08.05-16.44.20:802][832]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.08.05-16.44.40:363][304]LogEditorViewport: Clicking Background
+[2020.08.05-16.44.43:641][376]LogEditorViewport: Clicking on Actor (LMB): BaseFloor_5_C (BaseFloor_28)
+[2020.08.05-16.44.57:143][700]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.08.05-16.45.03:553][851]LogEditorViewport: Clicking on Actor (LMB): BaseFloor_5_C (BaseFloor_29)
+[2020.08.05-16.45.07:263][917]LogEditorViewport: Clicking on Actor (LMB): BaseFloor_5_C (BaseFloor_28)
+[2020.08.05-16.45.14:968][ 85]LogEditorViewport: Clicking on Actor (LMB): BaseFloor_5_C (BaseFloor_29)
+[2020.08.05-16.45.30:588][521]LogEditorViewport: Clicking on Actor (LMB): BaseFloor_5_C (BaseFloor_28)
+[2020.08.05-16.45.42:482][784]LogEditorViewport: Clicking Background
+[2020.08.05-16.45.46:293][886]LogEditorViewport: Clicking on Actor (LMB): BaseFloor_5_C (BaseFloor_28)
+[2020.08.05-16.45.49:790][981]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.08.05-16.45.56:873][196]LogEditorViewport: Clicking on Actor (LMB): BaseFloor_5_C (BaseFloor_28)
+[2020.08.05-16.45.58:216][228]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (BG_Sprite)
+[2020.08.05-16.46.00:077][271]LogEditorViewport: Clicking on Actor (LMB): BaseFloor_5_C (BaseFloor_28)
+[2020.08.05-16.46.03:903][381]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.08.05-16.46.23:201][963]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (BG_Sprite)
+[2020.08.05-16.46.25:574][ 17]LogEditorViewport: Clicking on Actor (LMB): BaseFloor_5_C (BaseFloor_28)
+[2020.08.05-16.46.27:786][ 75]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.08.05-16.46.44:003][549]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (BG_Sprite)
+[2020.08.05-16.46.46:301][610]LogEditorViewport: Clicking Background
+[2020.08.05-16.46.50:346][715]LogEditorViewport: Clicking on Actor (LMB): BaseFloor_5_C (BaseFloor_28)
+[2020.08.05-16.46.55:303][831]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (BG_Sprite4)
+[2020.08.05-16.46.58:831][908]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (BG_Sprite)
+[2020.08.05-16.47.01:203][960]LogEditorViewport: Clicking on Actor (LMB): BaseFloor_5_C (BaseFloor_28)
+[2020.08.05-16.47.31:311][707]LogEditorViewport: Clicking on Actor (LMB): BaseFloor_5_C (BaseFloor_26)
+[2020.08.05-16.48.17:248][862]LogEditorViewport: Clicking on Actor (LMB): BaseFloor_5_C (BaseFloor_32)
+[2020.08.05-16.48.32:870][210]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.08.05-16.49.03:466][952]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.08.05-16.49.14:690][214]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (BG_Sprite)
+[2020.08.05-16.49.16:544][249]LogEditorViewport: Clicking Background
+[2020.08.05-16.49.22:350][444]LogEditorViewport: Clicking on Actor (LMB): Box_C (Box)
+[2020.08.05-16.49.23:404][478]LogSlate: Took 0.000427 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.08.05-16.49.52:440][498]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.08.05-16.49.57:665][688]LogEditorViewport: Clicking on Actor (LMB): BaseFloor_5_C (BaseFloor_33)
+[2020.08.05-16.50.00:003][759]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.08.05-16.50.01:213][802]LogEditorViewport: Clicking on Actor (LMB): BaseFloor_5_C (BaseFloor_32)
+[2020.08.05-16.50.02:407][841]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.08.05-16.50.03:675][887]LogEditorViewport: Clicking on Actor (LMB): BaseFloor_5_C (BaseFloor_31)
+[2020.08.05-16.50.05:251][938]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.08.05-16.50.05:996][964]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (BG_Sprite)
+[2020.08.05-16.50.07:927][ 18]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.08.05-16.50.08:319][ 18]LogSavePackage: Moving '../../../../../../Users/plisk/Documents/Unreal Projects/Game-engine/test_ss_1/Saved/Level1D250B8494EB6F0AE72F5C7BE3EBEFA74.tmp' to '../../../../../../Users/plisk/Documents/Unreal Projects/Game-engine/test_ss_1/Content/Levels/Level1.umap'
+[2020.08.05-16.50.09:726][ 63]LogEditorViewport: Clicking on Actor (LMB): BaseFloor_5_C (BaseFloor_31)
+[2020.08.05-16.50.16:157][273]LogEditorViewport: Clicking on Actor (LMB): BaseFloor_5_C (BaseFloor_31)
+[2020.08.05-16.50.23:985][522]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (BG_Sprite)
+[2020.08.05-16.50.26:921][593]LogEditorViewport: Clicking on Actor (LMB): BaseFloor_5_C (BaseFloor_30)
+[2020.08.05-16.50.32:512][743]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.08.05-16.50.32:583][745]LogTemp: Repeating last play command: Simulate
+[2020.08.05-16.50.32:638][745]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.08.05-16.50.32:638][745]PIE: New page: SIE session: Level1 (Aug 5, 2020, 4:50:32 AM)
+[2020.08.05-16.50.32:638][745]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2020.08.05-16.50.32:672][745]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033300s)
+[2020.08.05-16.50.32:673][745]LogAIModule: Creating AISystem for world Level1
+[2020.08.05-16.50.32:674][745]LogPlayLevel: PIE: World Init took: (0.001688s)
+[2020.08.05-16.50.32:674][745]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.035345s)
+[2020.08.05-16.50.32:778][745]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.08.05-16.50.32:822][745]LogInit: FAudioDevice initialized.
+[2020.08.05-16.50.32:864][745]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2020.08.05-16.50.32:880][745]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2020.08.05-10.50.32
+[2020.08.05-16.50.32:882][745]LogWorld: Bringing up level for play took: 0.017084
+[2020.08.05-16.50.32:896][745]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 -0.081
+[2020.08.05-16.50.46:702][434]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.05-16.50.46:755][434]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.08.05-16.50.46:790][434]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.05-16.50.46:893][435]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2020.08.05-16.50.48:145][470]LogEditorViewport: Clicking on Actor (LMB): BaseFloor_5_C (BaseFloor_30)
+[2020.08.05-16.51.01:904][853]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (BG_Sprite)
+[2020.08.05-16.51.03:107][883]LogEditorViewport: Clicking on Actor (LMB): BaseFloor_5_C (BaseFloor_31)
+[2020.08.05-16.51.05:150][938]LogEditorViewport: Clicking on Actor (CTRL LMB): BaseFloor_5_C (BaseFloor_33)
+[2020.08.05-16.51.05:897][953]LogEditorViewport: Clicking on Actor (CTRL LMB): BaseFloor_5_C (BaseFloor_32)
+[2020.08.05-16.51.06:997][978]LogEditorViewport: Clicking on Actor (CTRL LMB): Box_C (Box)
+[2020.08.05-16.51.15:084][225]LogEditorViewport: Clicking on Actor (LMB): BaseFloor_5_C (BaseFloor_30)
+[2020.08.05-16.51.17:411][284]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.08.05-16.51.17:497][286]LogTemp: Repeating last play command: Simulate
+[2020.08.05-16.51.17:564][286]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.08.05-16.51.17:564][286]PIE: New page: SIE session: Level1 (Aug 5, 2020, 4:51:17 AM)
+[2020.08.05-16.51.17:564][286]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2020.08.05-16.51.17:589][286]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024300s)
+[2020.08.05-16.51.17:590][286]LogAIModule: Creating AISystem for world Level1
+[2020.08.05-16.51.17:591][286]LogPlayLevel: PIE: World Init took: (0.001303s)
+[2020.08.05-16.51.17:591][286]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.026243s)
+[2020.08.05-16.51.17:659][286]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.08.05-16.51.17:687][286]LogInit: FAudioDevice initialized.
+[2020.08.05-16.51.17:722][286]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2020.08.05-16.51.17:733][286]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2020.08.05-10.51.17
+[2020.08.05-16.51.17:734][286]LogWorld: Bringing up level for play took: 0.011397
+[2020.08.05-16.51.17:748][286]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.771
+[2020.08.05-16.51.40:293][316]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.05-16.51.40:350][316]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.08.05-16.51.40:382][316]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.05-16.51.40:492][317]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2020.08.05-16.51.49:246][582]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.08.05-16.52.16:263][455]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Character/2DSideScrollerCharacter.2DSideScrollerCharacter
+[2020.08.05-16.52.16:880][455]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0017 seconds. Added 116 classes and 0 folders.
+[2020.08.05-16.52.17:750][455]LogSlate: Took 0.000253 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.08.05-16.54.23:198][927]LogSavePackage: Moving '../../../../../../Users/plisk/Documents/Unreal Projects/Game-engine/test_ss_1/Saved/2DSideScrollerCharacter88AA14044B2A347065C7F3BFB816B408.tmp' to '../../../../../../Users/plisk/Documents/Unreal Projects/Game-engine/test_ss_1/Content/Character/2DSideScrollerCharacter.uasset'
+[2020.08.05-16.54.24:365][997]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2020.08.05-16.54.26:799][110]LogSavePackage: Moving '../../../../../../Users/plisk/Documents/Unreal Projects/Game-engine/test_ss_1/Saved/2DSideScrollerCharacterA83F25114EE9CF2B2EF8B499F08F01FE.tmp' to '../../../../../../Users/plisk/Documents/Unreal Projects/Game-engine/test_ss_1/Content/Character/2DSideScrollerCharacter.uasset'
+[2020.08.05-16.54.28:934][196]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (BG_Sprite)
+[2020.08.05-16.54.29:555][202]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.08.05-16.54.29:984][202]LogSavePackage: Moving '../../../../../../Users/plisk/Documents/Unreal Projects/Game-engine/test_ss_1/Saved/Level15B916A9846A0D9C93D6EA693C494003F.tmp' to '../../../../../../Users/plisk/Documents/Unreal Projects/Game-engine/test_ss_1/Content/Levels/Level1.umap'
+[2020.08.05-16.54.31:819][250]LogTemp: Repeating last play command: Simulate
+[2020.08.05-16.54.31:883][250]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.08.05-16.54.31:884][250]PIE: New page: SIE session: Level1 (Aug 5, 2020, 4:54:31 AM)
+[2020.08.05-16.54.31:884][250]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2020.08.05-16.54.31:903][250]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018606s)
+[2020.08.05-16.54.31:904][250]LogAIModule: Creating AISystem for world Level1
+[2020.08.05-16.54.31:904][250]LogPlayLevel: PIE: World Init took: (0.001200s)
+[2020.08.05-16.54.31:904][250]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.020033s)
+[2020.08.05-16.54.31:985][250]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.08.05-16.54.32:015][250]LogInit: FAudioDevice initialized.
+[2020.08.05-16.54.32:051][250]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2020.08.05-16.54.32:062][250]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2020.08.05-10.54.32
+[2020.08.05-16.54.32:063][250]LogWorld: Bringing up level for play took: 0.011494
+[2020.08.05-16.54.32:076][250]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 1.099
+[2020.08.05-16.55.17:473][357]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.05-16.55.17:547][357]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.08.05-16.55.17:596][357]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.05-16.55.17:696][358]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2020.08.05-16.55.20:721][429]LogEditorViewport: Clicking on Actor (LMB): BaseFloor_5_C (BaseFloor_30)
+[2020.08.05-16.55.25:730][570]LogEditorViewport: Clicking on Actor (LMB): BaseFloor_5_C (BaseFloor_33)
+[2020.08.05-16.55.28:421][650]LogEditorViewport: Clicking on Actor (CTRL LMB): BaseFloor_5_C (BaseFloor_31)
+[2020.08.05-16.55.29:717][681]LogEditorViewport: Clicking on Actor (CTRL LMB): Box_C (Box)
+[2020.08.05-16.55.30:464][694]LogEditorViewport: Clicking on Actor (CTRL LMB): BaseFloor_5_C (BaseFloor_32)
+[2020.08.05-16.55.41:312][  5]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.08.05-16.56.56:998][525]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2020.08.05-16.56.57:999][552]LogSavePackage: Moving '../../../../../../Users/plisk/Documents/Unreal Projects/Game-engine/test_ss_1/Saved/2DSideScrollerCharacter1BFBFD074A3FA375E05079B994384F0B.tmp' to '../../../../../../Users/plisk/Documents/Unreal Projects/Game-engine/test_ss_1/Content/Character/2DSideScrollerCharacter.uasset'
+[2020.08.05-16.57.05:401][799]LogEditorViewport: Clicking Background
+[2020.08.05-16.57.05:839][800]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.08.05-16.57.06:178][800]LogSavePackage: Moving '../../../../../../Users/plisk/Documents/Unreal Projects/Game-engine/test_ss_1/Saved/Level1534366894C10D48FB97821AB7C833ED7.tmp' to '../../../../../../Users/plisk/Documents/Unreal Projects/Game-engine/test_ss_1/Content/Levels/Level1.umap'
+[2020.08.05-16.57.08:004][853]LogTemp: Repeating last play command: Simulate
+[2020.08.05-16.57.08:055][853]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.08.05-16.57.08:056][853]PIE: New page: SIE session: Level1 (Aug 5, 2020, 4:57:08 AM)
+[2020.08.05-16.57.08:056][853]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2020.08.05-16.57.08:076][853]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020266s)
+[2020.08.05-16.57.08:077][853]LogAIModule: Creating AISystem for world Level1
+[2020.08.05-16.57.08:078][853]LogPlayLevel: PIE: World Init took: (0.001320s)
+[2020.08.05-16.57.08:078][853]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.021856s)
+[2020.08.05-16.57.08:189][853]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.08.05-16.57.08:232][853]LogInit: FAudioDevice initialized.
+[2020.08.05-16.57.08:269][853]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2020.08.05-16.57.08:282][853]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2020.08.05-10.57.08
+[2020.08.05-16.57.08:283][853]LogWorld: Bringing up level for play took: 0.012824
+[2020.08.05-16.57.08:296][853]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 -0.68
+[2020.08.05-16.57.47:882][668]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.05-16.57.47:930][668]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.08.05-16.57.47:978][668]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.05-16.57.48:088][669]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2020.08.05-16.57.51:434][768]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.08.05-16.58.11:610][965]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2020.08.05-16.58.12:544][986]LogSavePackage: Moving '../../../../../../Users/plisk/Documents/Unreal Projects/Game-engine/test_ss_1/Saved/2DSideScrollerCharacter41452D29409F99E6DEF4EBBD1573A6FE.tmp' to '../../../../../../Users/plisk/Documents/Unreal Projects/Game-engine/test_ss_1/Content/Character/2DSideScrollerCharacter.uasset'
+[2020.08.05-16.58.37:575][478]LogSavePackage: Moving '../../../../../../Users/plisk/Documents/Unreal Projects/Game-engine/test_ss_1/Saved/2DSideScrollerCharacter13616ED2428230971B05EE91B77E732B.tmp' to '../../../../../../Users/plisk/Documents/Unreal Projects/Game-engine/test_ss_1/Content/Character/2DSideScrollerCharacter.uasset'
+[2020.08.05-16.58.39:556][597]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2020.08.05-16.58.50:654][980]LogTemp: Repeating last play command: Simulate
+[2020.08.05-16.58.50:707][980]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.08.05-16.58.50:707][980]PIE: New page: SIE session: Level1 (Aug 5, 2020, 4:58:50 AM)
+[2020.08.05-16.58.50:707][980]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2020.08.05-16.58.50:730][980]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022591s)
+[2020.08.05-16.58.50:731][980]LogAIModule: Creating AISystem for world Level1
+[2020.08.05-16.58.50:731][980]LogPlayLevel: PIE: World Init took: (0.001318s)
+[2020.08.05-16.58.50:731][980]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.024152s)
+[2020.08.05-16.58.50:828][980]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.08.05-16.58.50:862][980]LogInit: FAudioDevice initialized.
+[2020.08.05-16.58.50:897][980]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2020.08.05-16.58.50:911][980]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2020.08.05-10.58.50
+[2020.08.05-16.58.50:912][980]LogWorld: Bringing up level for play took: 0.014233
+[2020.08.05-16.58.50:926][980]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 -0.051
+[2020.08.05-16.59.35:136][ 68]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.05-16.59.35:196][ 68]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.08.05-16.59.35:244][ 68]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.05-16.59.35:365][ 69]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2020.08.05-16.59.37:311][121]LogEditorViewport: Clicking on Actor (LMB): Box_C (Box)
+[2020.08.05-16.59.49:577][511]LogEditorViewport: Clicking on Actor (context menu): Box_C (Box)
+[2020.08.05-16.59.49:690][511]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.08.05-17.00.18:597][516]Cmd: TRANSACTION UNDO
+[2020.08.05-17.00.18:597][516]LogEditorTransaction: Undo Show Only Selected Actors
+[2020.08.05-17.00.20:726][581]LogEditorViewport: Clicking on Actor (context menu): Box_C (Box)
+[2020.08.05-17.00.20:818][581]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.08.05-17.00.35:530][ 66]Cmd: ACTOR UNHIDE ALL STARTUP
+[2020.08.05-17.00.52:682][691]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.08.05-17.00.55:734][809]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (BG_Sprite)
+[2020.08.05-17.00.56:869][839]LogEditorViewport: Clicking on Actor (LMB): Box_C (Box)
+[2020.08.05-17.01.16:543][527]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (BG_Sprite)
+[2020.08.05-17.01.21:467][639]LogEditorViewport: Clicking Background
+[2020.08.05-17.01.23:034][671]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (BG_Sprite)
+[2020.08.05-17.01.30:149][856]LogEditorViewport: Clicking on Actor (context menu): Box_C (Box)
+[2020.08.05-17.01.30:308][856]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.08.05-17.01.39:989][187]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.08.05-17.01.45:023][373]LogEditorViewport: Clicking on Actor (LMB): BaseFloor_5_C (BaseFloor_33)
+[2020.08.05-17.01.47:007][439]LogEditorViewport: Clicking on Actor (LMB): Box_C (Box)
+[2020.08.05-17.01.51:269][595]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.08.05-17.01.59:804][851]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Level_Items/Accessories/Objects/Box.Box
+[2020.08.05-17.02.04:597][984]LogRenderer: Reallocating scene render targets to support 1372x900 Format 10 NumSamples 1 (Frame:1).
+[2020.08.05-17.02.30:049][417]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.08.05-17.02.33:297][483]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.08.05-17.02.37:718][576]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.08.05-17.02.52:016][901]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.08.05-17.02.52:036][901]LogSlate: Window 'Box*' being destroyed
+[2020.08.05-17.03.14:899][370]LogSlate: Took 0.000547 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.08.05-17.07.41:919][ 43]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (BG_Sprite)
+[2020.08.05-17.07.46:222][127]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.08.05-17.07.46:439][127]LogSavePackage: Moving '../../../../../../Users/plisk/Documents/Unreal Projects/Game-engine/test_ss_1/Saved/Level15319A684418E3457C8B245873AE04750.tmp' to '../../../../../../Users/plisk/Documents/Unreal Projects/Game-engine/test_ss_1/Content/Levels/Level1.umap'
+[2020.08.05-17.07.49:838][202]LogSavePackage: Moving '../../../../../../Users/plisk/Documents/Unreal Projects/Game-engine/test_ss_1/Saved/2DSideScrollerCharacterC9D62735492C0044AD17F5A2EB8C05B0.tmp' to '../../../../../../Users/plisk/Documents/Unreal Projects/Game-engine/test_ss_1/Content/Character/2DSideScrollerCharacter.uasset'
+[2020.08.05-17.07.51:833][252]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.08.05-17.07.51:902][252]LogSavePackage: Moving '../../../../../../Users/plisk/Documents/Unreal Projects/Game-engine/test_ss_1/Saved/Box145EBF01480280434C7C79AB54B9F7A4.tmp' to '../../../../../../Users/plisk/Documents/Unreal Projects/Game-engine/test_ss_1/Content/Level_Items/Accessories/Objects/Box.uasset'
+[2020.08.05-17.08.00:065][412]LogAssetEditorManager: Opening Asset editor for Texture2D /Game/Level_Items/Floors/Sprites/Skeleton.Skeleton
+[2020.08.05-17.08.00:107][412]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2020.08.05-17.08.32:342][287]LogAssetEditorManager: Opening Asset editor for Texture2D /Game/Level_Items/Floors/Sprites/Tile__10_.Tile__10_
+[2020.08.05-17.08.53:748][853]LogSlate: Window 'Box' being destroyed
+[2020.08.05-17.08.53:807][853]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.08.05-17.09.10:640][433]LogAssetEditorManager: Opening Asset editor for PaperSprite /Game/Level_Items/Floors/Sprites/Created_Sprites/Skeleton_Sprite.Skeleton_Sprite
+[2020.08.05-17.09.10:993][433]LogRenderer: Reallocating scene render targets to support 1528x920 Format 10 NumSamples 1 (Frame:1).
+[2020.08.05-17.09.14:250][495]LogSlate: Window 'Skeleton_Sprite' being destroyed
+[2020.08.05-17.09.30:499][802]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2020.08.05-17.09.30:507][802]LogD3D11RHI: Error: Result failed 
+ at D:\Build\++UE4\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Viewport.cpp:304 
+ with error DXGI_ERROR_DEVICE_REMOVED DXGI_ERROR_DEVICE_HUNG
+[2020.08.05-17.09.30:507][802]LogD3D11RHI: [Aftermath] GDynamicRHI=000001BBDFD54180, GDX11NVAfterMathEnabled=0, Result=0xFFFFFFFF, bDeviceActive=0
+[2020.08.05-17.09.30:508][802]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2020.08.05-17.09.32:465][802]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2020.08.05-17.09.32:465][802]LogWindows: Error: === Critical error: ===
+[2020.08.05-17.09.32:465][802]LogWindows: Error: 
+[2020.08.05-17.09.32:465][802]LogWindows: Error: Fatal error: [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\RenderCore\Private\RenderingThread.cpp] [Line: 826] 
+[2020.08.05-17.09.32:465][802]LogWindows: Error: Rendering thread exception:
+[2020.08.05-17.09.32:465][802]LogWindows: Error: Fatal error: [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Util.cpp] [Line: 200] 
+[2020.08.05-17.09.32:465][802]LogWindows: Error: Unreal Engine is exiting due to D3D device being lost. (Error: 0x887A0006 - 'HUNG')
+[2020.08.05-17.09.32:465][802]LogWindows: Error: 
+[2020.08.05-17.09.32:465][802]LogWindows: Error: 
+[2020.08.05-17.09.32:465][802]LogWindows: Error: [Callstack] 0x00007ff8b765a799 KERNELBASE.dll!UnknownFunction []
+[2020.08.05-17.09.32:465][802]LogWindows: Error: [Callstack] 0x00007ff8acf66850 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.08.05-17.09.32:465][802]LogWindows: Error: [Callstack] 0x00007ff8575f62fc UE4Editor-Core.dll!UnknownFunction []
+[2020.08.05-17.09.32:465][802]LogWindows: Error: [Callstack] 0x00007ff8575851db UE4Editor-Core.dll!UnknownFunction []
+[2020.08.05-17.09.32:465][802]LogWindows: Error: [Callstack] 0x00007ff849dbadea UE4Editor-D3D11RHI.dll!UnknownFunction []
+[2020.08.05-17.09.32:465][802]LogWindows: Error: [Callstack] 0x00007ff849dbe6e4 UE4Editor-D3D11RHI.dll!UnknownFunction []
+[2020.08.05-17.09.32:465][802]LogWindows: Error: [Callstack] 0x00007ff849d9d0aa UE4Editor-D3D11RHI.dll!UnknownFunction []
+[2020.08.05-17.09.32:465][802]LogWindows: Error: [Callstack] 0x00007ff849daab70 UE4Editor-D3D11RHI.dll!UnknownFunction []
+[2020.08.05-17.09.32:465][802]LogWindows: Error: [Callstack] 0x00007ff8a3a7b106 UE4Editor-RHI.dll!UnknownFunction []
+[2020.08.05-17.09.32:465][802]LogWindows: Error: [Callstack] 0x00007ff849b51b42 UE4Editor-SlateRHIRenderer.dll!UnknownFunction []
+[2020.08.05-17.09.32:465][802]LogWindows: Error: [Callstack] 0x00007ff849b57d0a UE4Editor-SlateRHIRenderer.dll!UnknownFunction []
+[2020.08.05-17.09.32:465][802]LogWindows: Error: [Callstack] 0x00007ff857411f92 UE4Editor-Core.dll!UnknownFunction []
+[2020.08.05-17.09.32:465][802]LogWindows: Error: [Callstack] 0x00007ff857412456 UE4Editor-Core.dll!UnknownFunction []
+[2020.08.05-17.09.32:465][802]LogWindows: Error: [Callstack] 0x00007ff8ad1575f9 UE4Editor-RenderCore.dll!UnknownFunction []
+[2020.08.05-17.09.32:465][802]LogWindows: Error: [Callstack] 0x00007ff8ad158574 UE4Editor-RenderCore.dll!UnknownFunction []
+[2020.08.05-17.09.32:465][802]LogWindows: Error: [Callstack] 0x00007ff857856b7c UE4Editor-Core.dll!UnknownFunction []
+[2020.08.05-17.09.32:466][802]LogWindows: Error: [Callstack] 0x00007ff8578517c7 UE4Editor-Core.dll!UnknownFunction []
+[2020.08.05-17.09.32:466][802]LogWindows: Error: [Callstack] 0x00007ff8b7bf7bd4 KERNEL32.DLL!UnknownFunction []
+[2020.08.05-17.09.32:466][802]LogWindows: Error: [Callstack] 0x00007ff8b99cce51 ntdll.dll!UnknownFunction []
+[2020.08.05-17.09.32:466][802]LogWindows: Error: 
+[2020.08.05-17.09.32:466][802]LogWindows: Error: 
+[2020.08.05-17.09.32:466][802]LogWindows: Error: 
+[2020.08.05-17.09.32:466][802]LogWindows: Error: 
+[2020.08.05-17.09.32:486][802]LogExit: Executing StaticShutdownAfterError
+[2020.08.05-17.09.32:490][802]LogWindows: FPlatformMisc::RequestExit(1)
+[2020.08.05-17.09.32:495][802]Log file closed, 08/05/20 11:09:32
